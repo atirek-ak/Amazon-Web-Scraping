@@ -1,7 +1,19 @@
 # Amazon-Web-Scraping
-A Python script using Beautiful Soup
+A script to generate a .csv file containing details about the current top 50 bestselling books on Amazon  
 
-This script generates a .csv file of the current Top 50 Bestselling books from www.amazon.com
+## Getting started
+### Installing python
+For MacOS: ```brew install python3 ```  
+For Linux: ```sudo apt-get install python3```
 
-To run the script, use the command:
-python3 com_bestseller.py
+### Running the script
+To get the top 50 bestselling books from amazon.in run this script: ```python3 in_bestseller.py```  
+To get the top 50 bestselling books from amazon.com run this script: ```python3 com_bestseller.py```
+
+## Coded using:
+- python3
+- Beautiful Soup module provided in python
+
+## Author
+Atirek Kumar  
+Github handle: https://github.com/atirek-ak
